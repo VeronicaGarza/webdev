@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  section,
+  header,
+  div,
+  p,
+  h1,
+  h2,
+  h3,
+  ul,
+  li,
+  figure,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ffffff;
+  }
+  
+  .nav-options a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  
+  .nav-options a:hover{
+    color: #E3F2FD;
+  }
+  
+  body {
+    box-sizing: border-box;
+    background-color: #E3F2FD;
+    font-weight: 300;
+  }
+  
+  .title {
+    font-family: "Abril Fatface", serif;
+    font-weight: 800;
+    font-style: normal;
+    grid-area: title;
+    text-align: left;
+    padding: 5% 10% 0% 10%;
+    font-size: 36px;
+  }
+  
+  .description {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    grid-area: description;
+    text-align: left;
+    padding: 5% 10% 0% 10%; 
+  }
+  
+  
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title photo"
+      "description photo";
+    gap: 30px;
+  }
+  
+  .photo {
+    grid-area: photo;
+    text-align: center;
+    padding: 3% 3% 3% 3%;
+  }
+  
+  .boxes {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
