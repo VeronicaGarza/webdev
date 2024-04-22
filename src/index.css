@@ -50,14 +50,13 @@
   }
   
   .nav-options a:hover{
-    color: #c9b095;
+    color: #E3F2FD;
   }
   
   main{
     font-family: "Playfair Display", serif;
     width: 100%;
     min-height: 50px;
-    margin: 100px 30px 30px 0px;
   }
   
   #mainpage {
@@ -71,14 +70,18 @@
     display: flex;
     text-align: center;
     font-family: "Abril Fatface", serif;
-    font-size: 36px;
-    margin: 50px 30px 30px 30px;
+    font-size: 70px;
+    margin: 200px 30px 30px 30px;
   }
-  
+  #mainpage_quote {
+    margin: 20px 10px 20px 10px;
+    font-size: 30px;
+  }
   #mainpage_blurb {
     margin: 20px 10px 20px 10px;
     font-weight: 400; 
     font-style: normal;
+    font-size: 20px;
   }
   
   #mainpage button {

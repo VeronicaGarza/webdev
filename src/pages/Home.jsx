@@ -10,8 +10,11 @@ const Home = () => {
       <Navbar />
       <section id="mainpage">
         <h1 id="mainpage_title">
-          Share your knowledge with the Boston student community
+          Out and About
         </h1>
+        <h4 id="mainpage_quote">
+          Share your knowledge with the Boston student community
+        </h4>
         <p id="mainpage_blurb">
           Start your financial journey towards personal budgeting success
         </p>
