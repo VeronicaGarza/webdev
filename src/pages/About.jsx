@@ -31,6 +31,7 @@ const About = () => {
                 Join us on a journey through innovation and exploration. Let's learn
                 and grow together, pushing boundaries and embracing change
               </h4>
+              <br /><br />
               <p>
                 Feel empowered to take charge of your financial future. Planning for
                 tomorrow while enjoying the present is key. Your success story
