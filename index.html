@@ -1,13 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/ecd9aeb5a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Out and About</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header>
+      <nav id="navbar">
+        <ul class="nav-options">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="ContactPage/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section id="mainpage">
+          <h1 id="mainpage_title">
+            Share your knowledge with the Boston student community
+          </h1>
+          <p id="mainpage_blurb">
+            Start your financial journey towards personal budgeting success
+          </p>
+          <button onclick="myFunction()">Learn More</button>
+        </section>
+    </main>
   </body>
 </html>
