@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
+import Navbar from '../components/Navbar';
 
 const About = () => {
   return (
@@ -18,14 +20,7 @@ const About = () => {
         />
       </head>
       <body>
-        <nav>
-          <ul className="nav-options">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="ContactPage/contact.html">Contact</a></li>
-          </ul>
-        </nav>
+        <Navbar />
         <main className="about">
           <section className="text-content">
             <section className="title">

@@ -1,0 +1,224 @@
+nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color: #ffffff;
+  }
+  
+  .nav-options a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  
+  .nav-options a:hover {
+    color: #e3f2fd;
+  }
+  
+  :root {
+    --base-font-size: 100%;
+  
+    /* use a 1.2 type scale */
+    --font-size-1: 1em;
+    --font-size-2: calc(var(--base-font-size) * 1.2);
+    --font-size-3: calc(var(--font-size-2) * 1.2);
+    --font-size-4: calc(var(--font-size-3) * 1.2);
+    --font-size-5: calc(var(--font-size-4) * 1.2);
+    --font-size-6: calc(var(--font-size-5) * 1.2);
+    --font-size-7: calc(var(--font-size-6) * 1.2);
+  
+    --spacing-extra-large: 8em;
+    --spacing-large: 4em;
+    --spacing-med: 2em;
+    --spacing-small: 1em;
+    --spacing-very-small: 0.5em;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body,
+  div,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  aside,
+  p,
+  main,
+  nav,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  html {
+    font-size: var(--base-font-size);
+  }
+  
+  body {
+    font-family: "Playfair", serif;
+    font-weight: 400;
+    font-size: var(--font-size-1);
+    color: black;
+    background-color: #e3f2fd;
+  }
+  
+  h2 {
+    font-size: var(--font-size-7);
+    font-weight: 500;
+    margin-bottom: var(--spacing-very-small);
+    font-family: "Abril Fatface", serif;
+  }
+  h3 {
+    font-size: var(--font-size-5);
+    font-weight: 400;
+    font-family: "Abril Fatface", serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr;
+    margin: var(--spacing-med);
+  }
+  
+  .contactIcons {
+    margin-top: var(--spacing-med);
+    font-size: 1;
+  }
+  
+  .formData {
+    padding: var(--spacing-large);
+  }
+  .formData form {
+    margin-top: var(--spacing-med);
+    display: flex;
+    flex-direction: column;
+  }
+  .formData input {
+    flex: 1 1 40px;
+    width: 90%;
+    padding: var(--spacing-small);
+    color: #7b8794;
+  }
+  
+  .formData input[type="message"] {
+    flex: 1 1 40px;
+    width: 90%;
+    padding: var(--spacing-large);
+    color: #7b8794;
+  }
+  
+  .formData input[type="submit"] {
+    height: calc(var(--spacing-small) * 10);
+    margin-top: var(--spacing-large);
+    border: 0;
+    border-radius: var(--spacing-very-small);
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Playfair', serif; 
+  }
+  .formData input[type="submit"]:hover {
+    background-color: red;
+  }
+  .formData label {
+    margin-top: var(--spacing-med);
+  }
+  .formData button {
+    display: inline-block;
+    margin: var(--spacing-small) var(--spacing-small) 0 0;
+    background-color: transparent;
+    color: green;
+    border: solid 1px green;
+    border-radius: var(--spacing-very-small);
+    padding: var(--spacing-very-small);
+    width: 25%;
+    font-size: var(--font-size-3);
+    cursor: pointer;
+  }
+  .formData button:hover {
+    border: solid 1px red;
+    color: red;
+  }
+  
+  .contactInfo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contactP {
+    margin-top: var(--spacing-med);
+  }
+  
+  .contactLeft {
+    padding: var(--spacing-large);
+    border: 0;
+    border-radius: var(--spacing-very-small);
+    width: 24em;
+    background-color: white;
+  }
+  
+  .rule {
+    margin-top: var(--spacing-large);
+  }
+  
+  /* add your media query here */
+  
+  @media only screen and (max-width: 1000px) {
+    :root {
+      --base-font-size: 120%;
+    }
+  
+    .container {
+      grid-template-columns: 1fr;
+      margin: var(--spacing-small);
+    }
+  
+    .contactLeft {
+      justify-content: flex-start;
+      background-color: white;
+    }
+  
+    .planType {
+      padding: var(--spacing-med);
+      width: 100%;
+      padding-left: var(--spacing-med);
+    }
+  
+  
+    .formData {
+      padding: var(--spacing-med);
+    }
+  
+    .formData form {
+      margin-top: var(--spacing-small);
+    }
+  }
+  
