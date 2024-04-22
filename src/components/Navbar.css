@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  section,
+  header,
+  div,
+  p,
+  h1,
+  h2,
+  h3,
+  ul,
+  li,
+  figure,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ffffff;
+  }
+  
+  .nav-options a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  
+  .nav-options a:hover{
+    color: #E3F2FD;
+  }
