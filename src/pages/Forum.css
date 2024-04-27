@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  section,
+  header,
+  div,
+  p,
+  h1,
+  h2,
+  h3,
+  ul,
+  li,
+  figure,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ffffff;
+  }
+  
+  .nav-options a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  
+  .nav-options a:hover{
+    color: #E3F2FD;
+  }
+  
+  body {
+    box-sizing: border-box;
+    background-color: #E3F2FD;
+    font-weight: 300;
+  }
+  header {
+      color: black;
+      padding: 15px;
+      text-align: center;
+  }
+  
+  #comment-form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+  }
+  
+  #comment-form h2 {
+      margin-top: 0;
+  }
+  
+  .form-group {
+      margin-bottom: 15px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+  }
+  input[type="text"]:focus, textarea:focus{
+    border-color: #E3F2FD;
+    outline: none;
+  }
+  button {
+      background-color: #333333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #E3F2FD;
+  }
+  
+  #comments-list {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+  }
+  
+  #comments-list h2 {
+      margin-top: 0;
+  }
+  
+  .comment {
+      border-bottom: 1px solid #dddddd;
+      padding: 10px 0;
+  }
+  
+  .comment h3 {
+      margin: 0;
+      font-weight: bold;
+  }
+  
+  .comment p {
+      margin: 5px 0;
+  }
+  
+  .comment:last-child {
+      border-bottom: none;
+  }

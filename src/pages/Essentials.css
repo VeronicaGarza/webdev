@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  section,
+  header,
+  div,
+  p,
+  h1,
+  h2,
+  h3,
+  ul,
+  li,
+  figure,
+  figcaption {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .nav-options {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #ffffff;
+  }
+  
+  .nav-options a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  .resources li a {
+    color: black;
+    text-decoration: none;
+  }
+  .nav-options a:hover {
+    color: #e3f2fd;
+  }
+  .resources a:hover {
+    color: #61bbff;
+  }
+  .resources {
+    margin: 0px 10px 0px 20px;
+  }
+  body {
+    box-sizing: border-box;
+    background-color: #e3f2fd;
+    font-weight: 300;
+  }
+  .SchoolSupplies {
+    background-image: url(https://cdn.glitch.global/61ed9e23-9b4a-4a20-83b1-e45aff56fc8f/school.png?v=1714077845418);
+    background-size: cover;
+    background-position: 50% 40%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Meals {
+    background-image: url(https://cdn.glitch.global/61ed9e23-9b4a-4a20-83b1-e45aff56fc8f/food.png?v=1714078116329);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 40%;
+  }
+  
+  .Healthcare {
+    background-image: url(https://cdn.glitch.global/61ed9e23-9b4a-4a20-83b1-e45aff56fc8f/med.png?v=1714078711275);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: 50% 40%;
+  }
+  
+  .card {
+    margin: 0px 0px 50px 0px;
+  }
+  .card h2 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 1px 1px 3px black;
+  }
+  .card h3 {
+    margin: 0px 0px 15px 0px;
+    background-color: rgba(140, 206, 255, 0.5);
+  }
+  .card li {
+    margin: 0px 0px 10px 0px;
+  }
+  .card p {
+    margin: 3px 0px 0px 0px;
+  }
+  
+  .list {
+    margin: 30px 50px 50px 50px;
+  }

@@ -16,7 +16,7 @@ const Home = () => {
           Share your knowledge with the Boston student community
         </h4>
         <p id="mainpage_blurb">
-          Start your financial journey towards personal budgeting success
+          Feel empowered to take charge of your financial future. Planning for tomorrow while enjoying the present is key. Your success story starts here.
         </p>
         <button onClick={learnMore}>Learn More</button>
       </section></div>

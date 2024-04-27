@@ -28,17 +28,20 @@ const About = () => {
             </section>
             <section className="description">
               <h4>
-                Join us on a journey through innovation and exploration. Let's learn
+                Join us on a journey through transformation and exploration. Let's learn
                 and grow together, pushing boundaries and embracing change
               </h4>
               <br /><br />
               <p>
-                Feel empowered to take charge of your financial future. Planning for
-                tomorrow while enjoying the present is key. Your success story
-                starts here.<br /><br />Embrace sustainability in all aspects of
-                life. Small actions can make a big impact. Together, we can create a
-                better world for future generations.
-              </p>
+                At Out and About, we provide students in Boston with the resources
+                and guidance they need to navigate personal budgeting effectively,
+                empowering them to share knowledge and thrive within our vibrant
+                student community. Through our informative content and tools, we aim
+                to support students in their financial journey towards achieving
+                personal and academic success.<br /><br />Embrace sustainability in
+                all aspects of life. Small actions can make a big impact. Together,
+                we can create a better world for future generations.
+               </p>
             </section>
           </section>
           <section className="photo">
