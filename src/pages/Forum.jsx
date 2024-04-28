@@ -11,7 +11,7 @@ const Forum = () => {
       </header>
 
       <section id="comment-form">
-        <h2>Leave a Comment</h2>
+        <h3>Leave a Comment</h3>
         <form>
           <div className="form-group">
             <label htmlFor="comment-author">Your Name:</label>
@@ -26,13 +26,13 @@ const Forum = () => {
       </section>
 
       <section id="comments-list">
-        <h2>Comments</h2>
+        <h3>Comments</h3>
         <div className="comment">
-          <h3>Jane Doe</h3>
+          <h4>Jane Doe</h4>
           <p>This is a sample comment. Great discussion!</p>
         </div>
         <div className="comment">
-          <h3>John Smith</h3>
+          <h4>John Smith</h4>
           <p>I found this topic very interesting. Thanks for sharing!</p>
         </div>
         {/* Additional comments can be appended here */}

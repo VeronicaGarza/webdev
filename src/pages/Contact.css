@@ -10,9 +10,9 @@ nav ul li {
     justify-content: flex-end;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    /* font-weight: <weight>;
     font-style: normal;
-    background-color: #ffffff;
+    background-color: #ffffff; */
   }
   
   .nav-options a {
@@ -117,18 +117,29 @@ nav ul li {
   }
   .formData input {
     flex: 1 1 40px;
-    width: 90%;
+    width: 100%;
     padding: var(--spacing-small);
-    color: #7b8794;
+    /* color: #7b8794; */
   }
-  
+  .formData input[type="email"], .formData input[type="text"]{ /* Apply the same styles to all inputs and textareas */
+    flex: 1 1 40px; /* Allow for flexible sizing, default to 40px height */
+    padding: var(--spacing-small); /* Consistent padding */
+    border: 1px solid #ccc; /* Consistent border styling */
+    border-radius: var(--spacing-very-small); /* Consistent border-radius */
+    font-family: 'Playfair', serif; /* Consistent font */
+
+    transition: #e3f2fd 5000s ease-in-out;
+  }
   .formData input[type="message"] {
     flex: 1 1 40px;
     width: 90%;
     padding: var(--spacing-large);
+    border: 1px solid #ccc; /* Consistent border styling */
     color: #7b8794;
   }
-  
+  textarea {
+    font-family: 'Playfair', serif; /* Consistent font */
+  }
   .formData input[type="submit"] {
     height: calc(var(--spacing-small) * 10);
     margin-top: var(--spacing-large);
@@ -140,6 +151,7 @@ nav ul li {
     cursor: pointer;
     font-family: 'Playfair', serif; 
   }
+
   .formData input[type="submit"]:hover {
     background-color: red;
   }

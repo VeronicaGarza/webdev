@@ -106,14 +106,6 @@ const Student = () => {
                 Applicants must be licensed to practice in Massachusetts and commit to practice two years full-time or the equivalent extended commitment part time (e.g. a 20-hour practice per week will mean a 4-year contract) providing services in an eligible facility or setting.
               </p>
             </li>
-            <li>
-              <a href="https://www.mass.gov/info-details/massachusetts-loan-repayment-program-mlrp-for-health-professionals"><strong>Massachusetts Loan Repayment Program (MLRP) for Health Professionals</strong></a>
-              <p>
-                Massachusetts offers loan repayment programs for primary health care professionals in a variety of disciplines including dental, medical, and mental health professionals. 
-                The goal of these programs is to provide educational loan repayments as an incentive for health professionals to practice in communities where significant shortages of health care providers and barriers to access have been identified.   
-                Applicants must be licensed to practice in Massachusetts and commit to practice two years full-time or the equivalent extended commitment part time (e.g. a 20-hour practice per week will mean a 4-year contract) providing services in an eligible facility or setting.
-              </p>
-            </li>
           </ul>
         </div>
       </section>

@@ -92,3 +92,21 @@
     height: auto;
     border-radius: 10px;
   }
+
+  @media only screen and (max-width: 769px) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr; /* Single column */
+      grid-template-areas:
+      "photo" /* Make photo appear first */
+      "title"
+      "description"; /* Stack text content below the photo */
+      gap: 20px; /* Adjust gap for stacked layout */
+    }
+    .title {
+      text-align: center;
+    }
+    .description h4 {
+      text-align: center;
+    }
+  }

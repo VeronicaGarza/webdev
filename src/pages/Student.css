@@ -92,7 +92,7 @@
   .card h3 {
     margin: 0px 0px 15px 0px;
     background-color: rgba(140, 206, 255, 0.5);
-    
+    font-size: 1.5rem;
   }
   .card li {
     margin: 0px 0px 10px 0px;
@@ -103,4 +103,10 @@
   
   .list {
     margin: 30px 50px 50px 50px;
+  }
+
+  @media only screen and (max-width: 769px) {
+    .card h3 {
+      font-size: 1.5rem;
+    }
   }
