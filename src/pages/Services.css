@@ -99,22 +99,6 @@
     }
   }
   
-  /* @media (max-width: 768px) {
-    .grid-container {
-      grid-template-areas:
-        "rectangle"
-        "square"
-        "square"
-        "square";
-    } */
-  
-    /* .rectangle {
-      width: 100%; /* Adjusted width to 100% */
-      /* height: 200px;
-      object-fit: cover;
-      grid-area: rectangle; /* Assigned grid area name */
-    /* }
-  } */
   @media only screen and (max-width: 769px) {
     .grid-container {
       display: grid;

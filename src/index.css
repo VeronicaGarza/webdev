@@ -71,7 +71,7 @@
     text-align: center;
     font-family: "Abril Fatface", serif;
     font-size: 70px;
-    margin: 200px 30px 30px 30px;
+    margin: 80px 30px 30px 30px;
   }
   #mainpage_quote {
     margin: 20px 10px 20px 10px;
@@ -84,18 +84,16 @@
     font-size: 20px;
     text-align: center;
   }
-  
-  #mainpage .photo {
-    text-align: center;
+
+  #mainpage img {
+    height: 400px;
   }
-  
-  #mainpage .boxes {
-    max-width: 100%;
+
+  .boxes {
+    max-width: 100%; 
     height: auto;
-    border-radius: 10px;
+    object-fit: fill;
   }
-
-
   
   @media only screen and (min-width: 769px) {
     main {
