@@ -22,11 +22,11 @@ const Contact = () => {
             <div className="contactIcons">
               <div className="contactPhone">
                 <i className="fas fa-phone"></i>
-                &nbsp;Phone: 650-888-9086
+                &nbsp;Phone: 617-552-3975
               </div>
               <div className="contactEmail">
                 <i className="fas fa-envelope"></i>
-                &nbsp;Email: email@bc.edu
+                &nbsp;Email: yunmd@bc.edu
               </div>
               <div className="contactAddress">
                 <i className="fas fa-map-marker-alt"></i>
@@ -36,13 +36,13 @@ const Contact = () => {
               <div className="contactSocials">
                 <i className="fab fa-linkedin"></i>
                 <a
-                  href="https://www.linkedin.com/in/laurenelizeroque/"
+                  href="https://www.linkedin.com/school/boston-college/mycompany/verification/"
                   alt="LinkedIn"
                 >
                   &nbsp;LinkedIn
                 </a>
                 <i className="fab fa-instagram"></i>
-                <a href="https://www.instagram.com/wics_bc/" alt="Instagram">
+                <a href="https://www.instagram.com/bostoncollege/" alt="Instagram">
                   &nbsp;Instagram
                 </a>
               </div>

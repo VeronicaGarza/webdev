@@ -118,19 +118,19 @@ const Social = () => {
               </p>
             </li>
             <li>
-              <strong>All You Can Eat Restaurants</strong>
+              <strong>All You Can Eat Restaurants:</strong>
               <p>
                 <a href="https://www.burrobarboston.com/menu/brunch/"
-                  ><strong>Burro Bar</strong></a
+                  ><strong>Burro Bar </strong></a
                 >
-                has Bottomless Brunch at $25 a person. This is a great drink and
+                 has Bottomless Brunch at $25 a person. This is a great drink and
                 food deal for brunch in Boston. Their cocktails and non-alcohol
                 options are the perfect pairing with Huevos Rancheros or Avocado
                 Toast.
               </p>
               <p>
                 <a href="http://www.yamatoboston.com/"
-                  ><strong>Yamato</strong></a
+                  ><strong>Yamato </strong></a
                 >
                 has all you can eat sushi for $24 to $34 per person. It is
                 perfect for large group meals because plates of sushi rolls can
@@ -139,7 +139,7 @@ const Social = () => {
               </p>
               <p>
                 <a href="https://www.springshabu.com/boston"
-                  ><strong>Spring Shabu Shabu</strong></a
+                  ><strong>Spring Shabu Shabu </strong></a
                 >
                 has all you can eat hot pot for $24 per person. Its personalzed
                 pot and buffet toppings combine for the best hot pot experience
