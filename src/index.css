@@ -85,16 +85,17 @@
     text-align: center;
   }
   
-  #mainpage button {
-    margin: 30px 10px 10px 10px;
-    font-family: "Playfair Display", serif;
-    background-color: #ffffff;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 15px;
-    color: black;
+  #mainpage .photo {
+    text-align: center;
   }
+  
+  #mainpage .boxes {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
   
   @media only screen and (min-width: 769px) {
     main {
